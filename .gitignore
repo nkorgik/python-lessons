@@ -1,0 +1,55 @@
+# .gitignore
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.so
+*.egg-info/
+dist/
+build/
+*.egg
+*.eggs
+
+# Virtual environment folders
+venv/
+venv.bak/
+*.venv/
+*.venv.bak/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Configuration files
+config.py
+*.ini
+*.cfg
+.env
+.env.local
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*.swn
+*.bak
+*.sublime*
+*.pyre/
+
+# Other files and folders
+*.pyc.bak/
+*.tmp/
+*.bak/
+.cache/
