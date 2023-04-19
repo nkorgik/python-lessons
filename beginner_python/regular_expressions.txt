@@ -1,0 +1,29 @@
+EMAIL:
+
+john.doe@example.com
+jane_doe@example.co.uk
+invalid_email@.com
+
+URLS:
+
+https://www.example.com
+http://www.example.co.uk/some/path
+invalid_url.example.com
+
+PHONE:
+
++1 (123) 456-7890
+123-456-7890
+1234567890
+
+Match Dates:
+
+01-01-2000
+31.12.2023
+2023-04-01
+
+Python variable names:
+
+variable_name
+_hidden_variable
+2_invalid_name
