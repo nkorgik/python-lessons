@@ -1,9 +1,15 @@
-from aiogram import types 
+from aiogram import types, Dispatcher
 
 
 async def cmd_start(msg: types.Message) -> None:
-    await msg.answer('Hello World!')
+    """Processes CMD START
+    """
     
-    
-def register_user_handlers(dp) -> None:
+    await msg.answer(
+        text='Hello World!'
+    )
+
+
+def register_user_handlers(dp: Dispatcher):
     dp.register_message_handler(cmd_start, commands=['start', 'help'])
+
